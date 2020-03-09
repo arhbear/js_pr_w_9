@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#but1").click(function(){
+                    $('[align="center"]').hide();
+                })
+                $("#but2").click(function(){
+                    $('[align="center"]').show();
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button id="but1">Спрятать абзац c align=center</button>
+        <button id="but2">Показать абзац c align=center</button>
+        <h2 align="center">Это заголовок 2 уровня c align=center</h2>
+        <p align="center">А это абзац c align=center.</p>
+        <h2>А вот это еще один заголовок 2 уровня</h2>
+        <p>А вот это еще один абзац!</p>
+
+    </body>
+</html>
